@@ -366,6 +366,7 @@ Load balancing lets us distribute incoming network traffic across multiple resou
 For additional scalability and redundancy, we can try to load balance at each layer of our system:
 
 ![load-balancing-layers](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-I/load-balancing/load-balancer-layers.png)
+For maintaining data consistency across different databases serving same server, we can use 2pc to ensure that a transaction commits to both or none.
 
 ## But why?
 
